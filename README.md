@@ -10,10 +10,8 @@
 ## Скриншоты базового уровня
 
 ### Задание 1. Подготовка аккаунта
-<img width="1870" height="387" alt="image" src="https://github.com/user-attachments/assets/0157bd2d-8f6e-45c1-96ac-ebb4617d82b7" />
 
-![Budget ZeroSpend](<img width="1870" height="387" alt="image" src="https://github.com/user-attachments/assets/0508efd5-db0f-43cc-8414-2a81741137c1" />
-)
+<img width="1870" height="387" alt="image" src="https://github.com/user-attachments/assets/0157bd2d-8f6e-45c1-96ac-ebb4617d82b7" />
 Бюджет `ZeroSpend` в списке `Budgets`.
 
 ### Задание 2. Запуск экземпляра EC2
