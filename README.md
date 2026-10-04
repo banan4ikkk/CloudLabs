@@ -44,7 +44,8 @@
 
 ### Задание 6. Остановка экземпляра через AWS CLI
 
-<img width="1626" height="743" alt="image" src="https://github.com/user-attachments/assets/d54826e9-148a-4410-90ae-fae9e7c58966" />
+<img width="1265" height="564" alt="image" src="https://github.com/user-attachments/assets/30bed825-c5e8-4386-aa81-780def12b5b1" />
+
 
 Команда `aws ec2 stop-instances` и её вывод.
 
