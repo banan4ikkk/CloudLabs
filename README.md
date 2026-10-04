@@ -18,6 +18,7 @@
 
 <img width="1504" height="730" alt="image" src="https://github.com/user-attachments/assets/e00f3518-0906-42a8-be23-31bbe2a2d039" />
 <img width="339" height="147" alt="image" src="https://github.com/user-attachments/assets/b85c84da-e83b-4be8-90ec-c64af5a527f5" />
+
 Экземпляр `webserver` в состоянии `Running` с пройденными проверками.
 
 <img width="1175" height="453" alt="image" src="https://github.com/user-attachments/assets/e2ea90c4-deea-4aa6-8017-a9916e0a7675" />
