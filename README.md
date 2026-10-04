@@ -16,30 +16,35 @@
 
 ### Задание 2. Запуск экземпляра EC2
 
-![Instance Running](ссылка_или_путь_к_скриншоту_2.png)
+<img width="1504" height="730" alt="image" src="https://github.com/user-attachments/assets/e00f3518-0906-42a8-be23-31bbe2a2d039" />
+<img width="339" height="147" alt="image" src="https://github.com/user-attachments/assets/b85c84da-e83b-4be8-90ec-c64af5a527f5" />
 Экземпляр `webserver` в состоянии `Running` с пройденными проверками.
 
-![Nginx page](ссылка_или_путь_к_скриншоту_3.png)
+<img width="1175" height="453" alt="image" src="https://github.com/user-attachments/assets/e2ea90c4-deea-4aa6-8017-a9916e0a7675" />
 Страница nginx в браузере по публичному IP.
 
 ### Задание 3. Мониторинг и диагностика
 
-![Monitoring tab](ссылка_или_путь_к_скриншоту_4.png)
+<img width="1592" height="739" alt="image" src="https://github.com/user-attachments/assets/3c6d9f66-40ff-461f-88ab-8c6f2fa8126c" />
+
 Вкладка `Monitoring` и фрагмент `System log` с установкой nginx.
 
 ### Задание 4. Подключение по SSH
 
-![SSH connection](ссылка_или_путь_к_скриншоту_5.png)
+<img width="826" height="478" alt="image" src="https://github.com/user-attachments/assets/614d7a47-5807-4382-b954-c0f35887a9e4" />
+
 Успешное подключение по SSH и вывод `systemctl status nginx`.
 
 ### Задание 5. Статический сайт
 
-![Static site](ссылка_или_путь_к_скриншоту_6.png)
+<img width="1529" height="409" alt="image" src="https://github.com/user-attachments/assets/e845c03b-70eb-4282-84bb-57a1d4301742" />
+
 Ваш сайт в браузере и вывод `ls -l /usr/share/nginx/html`.
 
 ### Задание 6. Остановка экземпляра через AWS CLI
 
-![Stop instance](ссылка_или_путь_к_скриншоту_7.png)
+<img width="1626" height="743" alt="image" src="https://github.com/user-attachments/assets/d54826e9-148a-4410-90ae-fae9e7c58966" />
+
 Команда `aws ec2 stop-instances` и её вывод.
 
 ---
