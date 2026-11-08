@@ -1,8 +1,8 @@
 # Лабораторная работа №6. Масштабирование и балансировка нагрузки. Elastic Load Balancing, Amazon EC2 Auto Scaling
 
-**ФИО:** 
-**Группа:** _[впишите]_
-**Специальность:** _[впишите]_
+**ФИО:** Демченко Юрий
+**Группа:** IA2403
+**Специальность:** Прикладная информатика
 **Выбранный уровень:** Базовый
 
 ---
@@ -11,24 +11,30 @@
 
 ### Задание 2. Группа Auto Scaling
 
-![Цели healthy](screenshots/lab6-task2-healthy.png)
+<img width="1540" height="743" alt="image" src="https://github.com/user-attachments/assets/c68c3648-ace7-415c-8b60-3e49f5c2b06c" />
+
 Целевая группа `lab6-tg`, вкладка Targets: обе цели в состоянии `healthy`, в двух зонах.
 
-![Первый сервер](screenshots/lab6-task2-server1.png)
+<img width="1184" height="186" alt="image" src="https://github.com/user-attachments/assets/cc6dc227-1aa1-4a9c-b365-07528aebb80d" />
+
 Ответ балансировщика: страница первого сервера (имя и зона).
 
-![Второй сервер](screenshots/lab6-task2-server2.png)
+<img width="970" height="211" alt="image" src="https://github.com/user-attachments/assets/1fe4bf08-3c9f-4a4a-b3e6-5637f839bb1e" />
+
 Ответ балансировщика после обновления: страница другого сервера из другой зоны.
 
 ### Задание 3. Нагрузка
 
-![График метрики](screenshots/lab6-task3-metric.png)
+<img width="1632" height="744" alt="image" src="https://github.com/user-attachments/assets/b4f51952-af6c-4f56-a96c-5b179bdcd1ae" />
+
 График метрики `RequestCountPerTarget` на странице тревоги `AlarmHigh`: значение выше целевых 50.
 
-![История тревоги](screenshots/lab6-task3-alarm-history.png)
+<img width="1479" height="743" alt="image" src="https://github.com/user-attachments/assets/3caa75d1-938b-4db7-9e78-de30b85e1245" />
+
 Вкладка History тревоги: переход в состояние `ALARM` и время.
 
-![Activity](screenshots/lab6-task3-activity.png)
+<img width="1589" height="740" alt="image" src="https://github.com/user-attachments/assets/6467e021-cc23-49cc-801a-00fe72a3e414" />
+
 Вкладка Activity группы `lab6-asg`: запуск новых серверов (с причиной в поле Cause) и последующее уменьшение до двух серверов.
 
 ---
